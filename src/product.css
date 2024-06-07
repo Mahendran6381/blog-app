@@ -1,0 +1,99 @@
+.product{
+    height: 350px;
+    width: 220px;
+    background-color: white;
+    border-radius: 20px;
+    -webkit-box-shadow: 2px 3px 54px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 3px 54px -15px rgba(0,0,0,0.75);
+    box-shadow: 2px 3px 54px -15px rgba(0,0,0,0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner{
+    width: 90%;
+    height:90%;
+    margin: auto;
+    
+    border-radius:5%;
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+    padding:10px;
+}
+.inner .image{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.inner .image img{
+    height: 150px;
+    width: 150px;
+}
+
+.inner .contents{
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 100%;
+}
+.inner .contents .head{
+  font-size:1.2rem;
+  font-weight: bold;
+}
+.inner .contents .icons{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.inner .contents .icons .p{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.inner .contents .icons .p .original{
+    font-size:1.1rem;
+    font-weight: bold;
+    color: #EF3E81;
+}
+.underlined{
+    text-decoration: line-through;
+    font-size: 1rem;
+    font-weight: 600;
+    color: grey;
+}
+    .inner .contents .icons .icon ic{
+        position: absolute;
+        color: white;
+        left: 78px;
+        top: 25px;
+        height: 30px;
+}
+.inner .contents .icons .icon {
+    position: relative;
+    width: 100px;  
+    background-color: transparent; 
+    
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    padding-top: 7px;
+  }
+  
+  .inner .contents .icons  .icon::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-bottom: 50px solid green;
+    border-radius: 5px;
+  }
+
+  .ic{
+    position: absolute;
+    top: 28px;
+    right: 12px;
+    color: white;
+  }

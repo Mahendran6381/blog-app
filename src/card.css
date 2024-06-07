@@ -1,0 +1,66 @@
+.card{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: white;
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+}
+.product-item{
+    display: flex;
+    justify-content: space-between;
+}
+.pr{
+    display: flex;
+    gap: 20px;
+}
+.total {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.total p:nth-child(1){
+    color:#008E3A ;
+    font-size: 1.5em;
+    font-weight: 550;
+}
+.total p:nth-child(2){
+    color: red;
+    font-weight: 500;
+}
+.submit-payment{
+    display: flex;
+    gap:10px;
+    padding-top: 10px;
+}
+.submit-payment button{
+    height:50px;
+    background-color: #008E3A;
+    color: white;
+    text-align: center;
+    width: 100px;
+    border:none;
+    outline: none;
+    border-radius:10%;
+
+}
+
+
+.products-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: inherit;
+}
+
+.product-name{
+    width: 70px;
+}
+.product-items-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
