@@ -81,13 +81,22 @@
     padding-top: 7px;
   }
   
-  .inner .contents .icons  .icon::before {
+  .inner .contents .icons  .im::before{
     content: '';
     position: absolute;
     top: 0;
     height: 0;
     border-left: 50px solid transparent;
     border-bottom: 50px solid green;
+    border-radius: 5px;
+  }
+  .inner .contents .icons  .ac::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-bottom: 50px solid #EF3E81;
     border-radius: 5px;
   }
 
